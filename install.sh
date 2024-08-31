@@ -53,9 +53,9 @@ SERVICE
 check_rust
 build_app
 
-read -p "Would you like to install as Service? [N/y]: " -n 1 -r
-echo 
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    install_app
-fi
+# read -p "Would you like to install as Service? [N/y]: " -n 1 -r
+# echo 
+# if [[ $REPLY =~ ^[Yy]$ ]]
+# then
+#     install_app
+# fi
